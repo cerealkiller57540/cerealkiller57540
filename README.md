@@ -5,6 +5,8 @@
 **Home Assistant custom cards with a neon / Neo Tokyo soul.**
 Sysadmin by day — SCCM, Active Directory, Azure, purple team.
 
+WebGL fluid solver · 3D · live shaders · Web Components · full visual editors, in English and French.
+
 [![Home Assistant][ha-badge]][ha-url]
 [![HACS][hacs-badge]][hacs-url]
 [![License: MIT][license-badge]][license-url]
@@ -28,10 +30,23 @@ own. Full gallery, screenshots and one-click install:
 | <img src="https://raw.githubusercontent.com/cerealkiller57540/linux-terminal-card/main/images/main.png" alt="Linux Terminal Card" width="260"> | [**Linux Terminal Card**](https://github.com/cerealkiller57540/linux-terminal-card)<br>A sci-fi CRT terminal showing the health of a Linux PC — CPU, RAM, temperature, battery, network, updates. Real WebGL tube or plain CSS. | [![Open in HACS][hacs-btn]](https://my.home-assistant.io/redirect/hacs_repository/?owner=cerealkiller57540&repository=linux-terminal-card&category=plugin) |
 | <img src="https://raw.githubusercontent.com/cerealkiller57540/neon-dual-gauge-card/main/images/main.png" alt="Neon Dual Gauge Card" width="260"> | [**Neon Dual Gauge Card**](https://github.com/cerealkiller57540/neon-dual-gauge-card)<br>Two concentric LED gauges with a WebGL plasma core that follows the value. | [![Open in HACS][hacs-btn]](https://my.home-assistant.io/redirect/hacs_repository/?owner=cerealkiller57540&repository=neon-dual-gauge-card&category=plugin) |
 
+### Try one in two minutes
+
+Each card installs from HACS as a custom repository: **HACS → ⋮ → Custom repositories**,
+paste the card's repository URL, category **Dashboard** (a default-store submission for
+Weather Neon Card is under review). Or use the **Open in HACS** buttons above.
+
 Also in the family: [Neon Dual Thermometer](https://github.com/cerealkiller57540/neon-dual-thermo-card) ·
 [Neon Entities](https://github.com/cerealkiller57540/neon-entities-card) ·
 [Neon Markdown](https://github.com/cerealkiller57540/neon-markdown-card) ·
 [Neon Header v2](https://github.com/cerealkiller57540/neon-header-card-v2)
+
+## 🔌 Beyond cards: integrations
+
+Not only UI — two full Home Assistant integrations for the Orange Livebox ecosystem:
+
+- [**livebox-extended**](https://github.com/cerealkiller57540/livebox-extended) — the Livebox and its Wi-Fi 6 / Wi-Fi 7 repeaters, auto-discovered, over the local API.
+- [**liveboxtv_ng**](https://github.com/cerealkiller57540/liveboxtv_ng) — Livebox TV UHD decoders: config flow, SSDP/DHCP discovery, UPnP volume/mute, live EPG, multi-box.
 
 ## 🎨 Theme snippets
 
