@@ -10,6 +10,7 @@ WebGL fluid solver · 3D · live shaders · Web Components · full visual editor
 [![Home Assistant][ha-badge]][ha-url]
 [![HACS][hacs-badge]][hacs-url]
 [![License: MIT][license-badge]][license-url]
+[![Home Assistant Core contributor][core-badge]][core-pr]
 
 </div>
 
@@ -48,6 +49,12 @@ Not only UI — two full Home Assistant integrations for the Orange Livebox ecos
 - [**livebox-extended**](https://github.com/cerealkiller57540/livebox-extended) — the Livebox and its Wi-Fi 6 / Wi-Fi 7 repeaters, auto-discovered, over the local API.
 - [**liveboxtv_ng**](https://github.com/cerealkiller57540/liveboxtv_ng) — Livebox TV UHD decoders: config flow, SSDP/DHCP discovery, UPnP volume/mute, live EPG, multi-box.
 
+## 🏠 First contribution to Home Assistant Core
+
+🎉 My first pull request merged into Home Assistant itself:
+[**Fix Discogs random record sensor when release has no format description**](https://github.com/home-assistant/core/pull/186405)
+(#186405), shipped in [Home Assistant 2026.10.2](https://www.home-assistant.io/blog/2026/10/07/release-202610/).
+
 ## 🎨 Theme snippets
 
 Small add-ons for your theme rather than cards, in
@@ -78,4 +85,6 @@ animal rescue organization.
 [hacs-url]: https://hacs.xyz
 [license-badge]: https://img.shields.io/badge/license-MIT-green?style=for-the-badge
 [license-url]: https://github.com/cerealkiller57540/Home-Assistant-Neon-Cards/blob/main/LICENSE
+[core-badge]: https://img.shields.io/badge/Home%20Assistant%20Core-contributor-41BDF5?style=for-the-badge&logo=homeassistant&logoColor=white
+[core-pr]: https://github.com/home-assistant/core/pull/186405
 [hacs-btn]: https://my.home-assistant.io/badges/hacs_repository.svg
